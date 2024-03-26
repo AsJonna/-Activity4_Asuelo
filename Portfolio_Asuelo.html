@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Bootstrap Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Portfolio_Asuelo.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">My Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Hobbies</a></li>
+        <li><a href="#contact">Gallery</a></li>
+      </ul>
+  </div>
+</nav>
+
+<div id="home" class="jumbotron text-center">
+  <div class="container">
+    <h1>Jonnavien Grace Asuelo</h1>      
+    <p>Hi, I'm a passionate student. I thrive on creativity, innovation, and continuous learning.</p>
+    <p>Welcome to my portfolio!</p>
+  </div>
+</div>
+
+<div id="about" class="container-fluid bg-3 text-center">    
+    <h3>About Me</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <h4>Course</h4>
+        <p>Bachelor of Science in Information Technology</p>
+        <img src="course.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <h4>City</h4>
+        <p>Cagayan de Oro City</p>
+        <img src="city.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <h4>Country</h4>
+        <p>Philippines</p>
+        <img src="country.jpg" class="img-responsive" style="width:100%" alt="Image">
+      </div>
+    </div>
+  </div>
+  
+<div id="about" class="container-fluid bg-3 text-center">    
+  <h3>My Hobbies</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>One of my hobbies is watching K-dramas. The captivating plot, characters, and the cinematography. It's a great way to unwind.</p>
+      <img src="kdrama.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Man's best friend. I adore these loyal and loving animals. Spending time with dogs brings me immense joy and ease stress.</p>
+      <img src="dogs.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Baking brings me joys. I love experimenting new flavors and techniques. It allows me to express my creativity and share homemade goodies.</p>
+      <img src="baking.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<style>
+    .gallery-img {
+      height: 300px;
+      object-fit: cover; 
+    }
+  </style>
+  
+  <div id="gallery" class="container-fluid bg-3 text-center">    
+    <h3>My Gallery</h3><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="img1.jpg" class="img-responsive gallery-img" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <img src="img2.jpg" class="img-responsive gallery-img" alt="Image">
+      </div>
+      <div class="col-sm-4"> 
+        <img src="img3.jpg" class="img-responsive gallery-img" alt="Image">
+      </div>
+    </div>
+  </div>
+
+<footer class="container-fluid text-center">
+  <p>Byeeee</p>
+</footer>
+
+</body>
+</html>
